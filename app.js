@@ -35,8 +35,8 @@ passport.use('oidc', new OidcStrategy({
   authorizationURL: 'https://dev-00282227.okta.com/oauth2/default/v1/authorize',
   tokenURL: 'https://dev-00282227.okta.com/oauth2/default/v1/token',
   userInfoURL: 'https://dev-00282227.okta.com/oauth2/default/v1/userinfo',
-  clientID: '0oa1tr5urwavoFhvN5d7',
-  clientSecret: 'cSzwpOe5n0CEE_5hzovFixf5J-5wXsoqPzHqUTRu',
+  clientID: '',
+  clientSecret: '',
   callbackURL: 'http://localhost:3000/authorization-code/callback',
   scope: 'openid profile'
 }, (issuer, sub, profile, accessToken, refreshToken, done) => {
